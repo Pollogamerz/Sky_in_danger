@@ -18,10 +18,14 @@ public class MainMenu : MonoBehaviour
     }
     public void EscenaJuego()
     {
-        SceneManager.LoadScene("Niveles_Sky_in_danger");
+        SceneManager.LoadScene("Pantalla inicio");
     }
     public void CargarNivel(string nombreSituacion)
     {
         SceneManager.LoadScene(nombreSituacion);
+    }
+    public void Reiniciar()
+    {
+        SceneManager.LoadScene(0);
     }
 }
