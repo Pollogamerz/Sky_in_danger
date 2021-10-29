@@ -8,7 +8,7 @@ public class MainMenu : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+            
     }
 
     // Update is called once per frame
@@ -18,7 +18,7 @@ public class MainMenu : MonoBehaviour
     }
     public void EscenaJuego()
     {
-        SceneManager.LoadScene("Pantalla inicio");
+        SceneManager.LoadScene("Niveles_Sky_in_danger");
     }
     public void CargarNivel(string nombreSituacion)
     {
